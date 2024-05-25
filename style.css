@@ -139,11 +139,29 @@ header {
     width: 90%;
     margin: 0 auto;
   }
+  .home-img::before{
+    font-size: 128px;
+    top: -35px;
+  }
 }
 
 @media (max-width: 910px) {
   .nav {
     padding: 18px 0;
+  }
+  .home-img::before{
+    font-size: 96px;
+    top: -35px;
+  }
+}
+
+@media (max-width:720px){
+  .home{
+    min-width: 550px;
+  }
+  .home-img::before{
+    font-size: 80px;
+    
   }
 }
 
@@ -172,5 +190,12 @@ header {
   }
 .navbar.open-menu {
   clip-path: circle(144% at 0% 0%);
+}
+.home{
+  min-width: 520px;
+}
+.home::before{
+  font-size: 64px;
+  top: -30px;
 }
 }
