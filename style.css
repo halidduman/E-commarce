@@ -180,7 +180,7 @@ header {
 /* footer */
 footer{
   background: var(--main-color);
-  padding: 40px 0;
+  padding: 40px 10;
 
 }
 .footer-c{
@@ -214,6 +214,10 @@ footer{
 
 }
 .footer-box a{
+  color: var(--background-color);
+  padding-top: 30px;
+}
+.copyright{
   color: var(--background-color);
   padding-top: 30px;
 }
@@ -253,6 +257,9 @@ footer{
   .home-img::before{
     font-size: 80px;
     
+  }
+  .footer-c{
+    grid-template-columns: 1fr;
   }
 }
 
