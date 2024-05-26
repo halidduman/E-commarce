@@ -178,7 +178,45 @@ header {
   cursor: pointer;
 }
 /* footer */
+footer{
+  background: var(--main-color);
+  padding: 40px 0;
 
+}
+.footer-c{
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  gap: 16px;
+}
+.footer-box{
+  display: flex;
+  flex-direction: column;
+}
+.footer-box h2{
+  font-size: 128px;
+  color: var(--background-color);
+  text-transform: uppercase;
+}
+.social{
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.social .bx{
+  background: var(--background-color);
+  font-size: 20px;
+  padding: 10px;
+  color: var(--main-color);
+  border-radius: 50%;
+}
+.footer-box h3{
+  color: var(--background-color);
+
+}
+.footer-box a{
+  color: var(--background-color);
+  padding-top: 30px;
+}
 /* ?responsive */
 
 @media (max-width: 1200px) {
