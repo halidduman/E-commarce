@@ -3,154 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- box-icon -->
+    <title>E-ticaret</title>
+    <!-- boxicons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
   </head>
   <body>
     <header>
       <div class="nav container">
         <i class="bx bx-menu" id="menu-icon"></i>
         <!-- logo -->
-        <a href="index.html" class="logo">COSTV</a>
-        <!-- nav-bar -->
-        <div class="navbar open-menu">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt=""></a>
+        <!-- navbar -->
+        <nav class="navbar">
           <a href="#" class="nav-link">Woman</a>
           <a href="#" class="nav-link">Man</a>
           <a href="#" class="nav-link">Kids</a>
-          <a href="#" class="nav-link">Woman</a>
-          <a href="#" class="nav-link">Accressories</a>
-        </div>
+          <a href="#" class="nav-link">Accessories</a>
+        </nav>
         <!-- cart-icon -->
         <a href="cart.html" id="cart-icon">
-          <i class="bx bxs-shopping-bag" data-quantity="0"></i>
+          <i class="bx bx-shopping-bag" data-quantity="0"></i>
         </a>
       </div>
     </header>
+    <!-- Home -->
     <section class="home" id="home">
       <div class="home-img container">
-        <img src="images/home.png" alt="" />
+        <img src="./images/home.png" alt="" />
       </div>
     </section>
-    <!-- products -->
+    <!-- Products -->
     <section class="products container">
-      <!-- heading -->
-      <h2 class="heading">DISCOVER PRODUCTS</h2>
-      <div class="products-container" id="productsList">
-        <div class="products">
-          <img
-            src="https://pangaia.com/cdn/shop/products/Recycled-Nylon-NW-Flwrdwn-Quilted-Collarless-Jacket-Cerulean-Blue-Female-1_bf4b2a54-8a7f-4174-bc49-8ef22b24bfdd.jpg?v=1666708230&width=1426"
-            alt=""
-            class="products-img"
-          />
-          <div class="products-info">
-            <h2 class="products-title">Autumn Hoodie</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
-          </div>
-        </div>
-        <div class="products">
+      <!-- Heading -->
+      <h2 class="heading">DISCOVER PRODUCT</h2>
+      <!-- Products Container -->
+      <div class="product-container" id="productList">
+        <!-- <div class="product">
           <img
             src="https://images.undiz.com/on/demandware.static/-/Sites-ZLIN-master/default/dw2264d914/merch/BTS/654206666_x.jpg?sw=1250"
             alt=""
-            class="products-img"
+            class="product-img"
           />
-          <div class="products-info">
-            <h2 class="products-title">FUSION HOODIE</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
+          <div class="product-info">
+            <h2 class="product-title">title</h2>
+            <p class="product-price">$50</p>
+            <a class="add-to-cart">Add to cart</a>
           </div>
         </div>
-        <div class="products">
+        <div class="product">
           <img
-            src="https://pangaia.com/cdn/shop/products/Recycled-Cashmere-Core-Hoodie-Chestnut-Brown-Male-1.jpg?v=1663947464&width=1426"
+            src="https://images.undiz.com/on/demandware.static/-/Sites-ZLIN-master/default/dw2264d914/merch/BTS/654206666_x.jpg?sw=1250"
             alt=""
-            class="products-img"
+            class="product-img"
           />
-          <div class="products-info">
-            <h2 class="products-title">Chestnut Brown</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
+          <div class="product-info">
+            <h2 class="product-title">title</h2>
+            <p class="product-price">$50</p>
+            <a class="add-to-cart">Add to cart</a>
           </div>
         </div>
-        <div class="products">
+        <div class="product">
           <img
-            src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/61734ec7-dad8-40f3-9b95-c7500939150a/sportswear-club-mens-french-terry-crew-neck-sweatshirt-tdFDRc.png"
+            src="https://images.undiz.com/on/demandware.static/-/Sites-ZLIN-master/default/dw2264d914/merch/BTS/654206666_x.jpg?sw=1250"
             alt=""
-            class="products-img"
+            class="product-img"
           />
-          <div class="products-info">
-            <h2 class="products-title">Nike Sportswear</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
+          <div class="product-info">
+            <h2 class="product-title">title</h2>
+            <p class="product-price">$50</p>
+            <a class="add-to-cart">Add to cart</a>
           </div>
         </div>
-        <div class="products">
+        <div class="product">
           <img
-            src="https://img01.ztat.net/article/spp-media-p1/7067458719b744fe81ffee62d3d0b912/abad421e7d8e47f08a2abc1c6ffe07dc.jpg?imwidth=1800"
+            src="https://images.undiz.com/on/demandware.static/-/Sites-ZLIN-master/default/dw2264d914/merch/BTS/654206666_x.jpg?sw=1250"
             alt=""
-            class="products-img"
+            class="product-img"
           />
-          <div class="products-info">
-            <h2 class="products-title">Champion BASIC</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
+          <div class="product-info">
+            <h2 class="product-title">title</h2>
+            <p class="product-price">$50</p>
+            <a class="add-to-cart">Add to cart</a>
           </div>
         </div>
-        <div class="products">
+        <div class="product">
           <img
-            src="https://pangaia.com/cdn/shop/files/Reclaim-3.0-Hoodie-Reclaim-Jade-Womens-3.jpg?v=1693398673&width=1426"
+            src="https://images.undiz.com/on/demandware.static/-/Sites-ZLIN-master/default/dw2264d914/merch/BTS/654206666_x.jpg?sw=1250"
             alt=""
-            class="products-img"
+            class="product-img"
           />
-          <div class="products-info">
-            <h2 class="products-title">Cotton Hoodie</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
+          <div class="product-info">
+            <h2 class="product-title">title</h2>
+            <p class="product-price">$50</p>
+            <a class="add-to-cart">Add to cart</a>
           </div>
-        </div>
-        <div class="products">
-          <img
-            src="https://img01.ztat.net/article/spp-media-p1/10cea44041564f81ac585fc6c8978907/c4c32dbc45dd4dbc9d15087c846538f2.jpg?imwidth=1800"
-            alt=""
-            class="products-img"
-          />
-          <div class="products-info">
-            <h2 class="products-title">CLASSIC CREWNECK</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
-          </div>
-        </div>
-        <div class="products">
-          <img
-            src="https://img01.ztat.net/article/spp-media-p1/d391f90be278469ebfdff731800cfccc/6d2101bd672f4e059501f01fe726f315.jpg?imwidth=1800"
-            alt=""
-            class="products-img"
-          />
-          <div class="products-info">
-            <h2 class="products-title">TAPE HOODED</h2>
-            <p class="products-price">$50</p>
-            <a class="add-to-cart">add to cart</a>
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
-    <!-- footer -->
+    <!-- Footer -->
     <footer class="footer" id="footer">
       <div class="footer-c container">
         <div class="footer-box">
           <h2>COSTY</h2>
           <div class="social">
-            <div class="bx" id="#"><i class='bx bxl-pinterest-alt'></i></div>
-            <div class="bx" id="#"><i class='bx bxl-instagram'></i></div>
-            <div class="bx" id="#"><i class='bx bxl-facebook'></i></div>
-            <div class="bx" id="#"><i class='bx bxl-whatsapp'></i></div>
-            <div class="bx" id="#"><i class='bx bxl-youtube'></i></div>
+            <a href="#" class="bx"><i class="bx bxl-pinterest-alt"></i></a>
+            <a href="#" class="bx"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="bx"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="bx"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#" class="bx"><i class="bx bxl-youtube"></i></a>
           </div>
         </div>
         <div class="footer-box">
@@ -158,26 +123,23 @@
           <a href="#">CONTACT US</a>
           <a href="#">FAQ</a>
           <a href="#">SHIPMENT</a>
-          <a href="#">TRACK YOUR ORDER</a>
+          <a href="#">PAYMENT</a>
           <a href="#">RETURN YOUR ORDER</a>
-          <a href="#"></a>
-          <a href="#"></a>
+          <a href="#">TRACK YOUR ORDER</a>
         </div>
         <div class="footer-box">
           <h3>HELP</h3>
           <a href="#">CONTACT US</a>
           <a href="#">FAQ</a>
           <a href="#">SHIPMENT</a>
-          <a href="#">TRACK YOUR ORDER</a>
+          <a href="#">PAYMENT</a>
           <a href="#">RETURN YOUR ORDER</a>
-          <a href="#"></a>
-          <a href="#"></a>
+          <a href="#">TRACK YOUR ORDER</a>
         </div>
       </div>
-      <div class="copyright container">
-        &copy;COSTY STUDIO
-      </div>
+      <p class="copyright container">&copy; COSTY STUDİO</p>
     </footer>
-    <script src="main.js"></script>
+
+    <script src="main.js" type="module"></script>
   </body>
 </html>
