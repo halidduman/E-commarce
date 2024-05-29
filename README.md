@@ -4,7 +4,7 @@
 
 Bu proje, COSTY adında bir e-ticaret web sitesinin demo versiyonudur. Gerçek bir site olmayıp, frontend geliştirme becerilerini sergilemek ve geliştirmek amacıyla hazırlanmıştır.
 
-# [COSTY Web Sitesini Ziyaret Et](https://costyshop.netlify.app)
+# [COSTY Web Sitesini Ziyaret Et](https://costyshop.vercel.app/index.html)
 
 ## Proje Hakkında
 
