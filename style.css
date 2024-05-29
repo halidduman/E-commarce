@@ -120,6 +120,7 @@ header {
 }
 /* Products */
 .heading {
+  margin-top: 34px;
   text-align: center;
   font-size: 64px;
   font-weight: 900;
@@ -162,6 +163,7 @@ header {
 }
 /* Footer */
 footer {
+  bottom: 0;
   margin-top: 100px;
   background: var(--main-color);
   padding: 40px 10px;
