@@ -12,3 +12,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderProducts(products, (event) => addToCart(event, products));
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuIcon = document.getElementById('menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('open-menu');
+  });
+});

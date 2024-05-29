@@ -58,7 +58,7 @@ header {
   align-items: center;
 }
 .nav-link {
-  font-size: 17px;
+  font-size: 20px;
   color: var(--main-color);
   font-weight: 700;
 }
@@ -297,6 +297,7 @@ footer {
   .container {
     width: 90%;
     margin: 0 auto;
+    
   }
   .home-img::before {
     font-size: 128px;
@@ -356,9 +357,9 @@ footer {
     display: block;
     padding: 15px;
   }
-  /* .open-menu {
+  .open-menu {
     clip-path: circle(144% at 0% 0%);
-  } */
+  }
   .navbar.open-menu {
     clip-path: circle(144% at 0% 0%);
   }
@@ -367,7 +368,7 @@ footer {
   }
   .home-img::before {
     font-size: 64px;
-    top: -30px;
+    top: -110px;
   }
   .product-container {
     grid-template-columns: repeat(2, 1fr);
